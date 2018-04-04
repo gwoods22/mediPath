@@ -75,7 +75,7 @@ public class ReadExcel {
 						cell8x, cell9x, cell10x, cell11x);
 
 				tree.put(a.getProviderZip(), a);
-				System.out.println(a);
+//				System.out.println(a);
 				table.put(a.getProviderZip(), a);
 			}
 		} catch (BiffException e) {
@@ -84,7 +84,8 @@ public class ReadExcel {
 
 		combine = new BSTHashServices(tree, table);
 	}
-	/*
+	
+/*
 	public static void main(String[] args) throws IOException {
 
 		begin();
@@ -105,6 +106,7 @@ public class ReadExcel {
 		 * size = times.size(); System.out.println("pop"); 
 		 * while (!times.empty()) {average += times.pop(); } 
 		 * System.out.println(average /= size);
+		 
 		
 
 		/*
@@ -116,6 +118,7 @@ public class ReadExcel {
 		 * Object element = m.next(); 
 		 * // System.out.println(element); } 
 		 * }
+		 
 		 
 
 		// best way to get cheapest objects in a range
@@ -167,8 +170,8 @@ public class ReadExcel {
 		System.out.println(combine.getCheapestObject(1040));
 		System.out.println(combine.getObject(77504, 60643.68));
 		System.out.println(combine.getObject(77504, 60643.68).getDRGDefNum());
-	}*/
+	}
+
+*/
 }
-
-
 
