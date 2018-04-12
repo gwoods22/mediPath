@@ -1,0 +1,31 @@
+SFWR ENG 2XB3
+Artemiy Kokhanov	400074430	Algorithm Development
+Eoin Lynagh			400067675	ADT, Storage, and Access programs
+Graeme Woods		400070363	User Interface and Website
+Moziah San Vicente	400091284	Reading data 
+Alex Kingsland		400069225	Graphing and Location services
+April 11, 2018
+The work being submitted by us is our own group work.
+
+NOTE TO PROFS AND TA'S
+JavaDoc folder contains the compiled JavaDoc website.
+
+To get the website working you need to import the zip into the
+Java EE perspective. If you don't already have this perspective,
+you must Go to "Help" -> "Install New Software...". Then in the
+new dialog, in the "Work with:" pull-down list, select
+"Indigo - http://download.eclipse.org/releases/indigo",
+but replace Indigo with your eclipse version. Then select the
+following packages to install:
+       "Web, XML, Java EE and OSGI Enterprise Development". 
+       "Programming langauges -> Eclipse Java Development Tools"
+After installation is complete, if you restart eclipse, you
+should see an option for java perspective in
+"window -> open perspective -> " or "window -> open perspective -> other"
+You also need Tomcat for our site to work.
+Now once in Java EE create a new "Dynamic Web Project" from the menu bar
+and import the zip into this new Web project. Make sure to select the
+the contents of the Group02_FinalProject folder not the root of the zip
+or the root of the project to avoid import errors or you not being able
+to run the code or server. When it imports properly, then click run as 
+server in the run menu to start it up! Enjoy!
